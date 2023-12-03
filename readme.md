@@ -1,38 +1,14 @@
-# RemoteVSCS
+# AirportsPlugin
 
-vatSys Remote VSCS Plugin.
+Plugin to add extra airports to [vatSys](https://virtualairtrafficsystem.com/).
 
-## Description
+#### Installation
 
-This plugin allows a user to access VSCS functions via a web browser, enable VSCS to be used on other devices on the same network, such as an iPad or tablet device.
+1. Download the plugin [here](https://github.com/badvectors/AirportsPlugin/releases/download/release/AirportsPluginV1.0.zip).
+2. **Right click on the zip file and select "Unblock".**
+3. Unzip the file and copy to the base vatSys plugins directory: "[...]\Program Files (x86)\vatSys\bin\Plugins".
+4. Verify it has been installed in vatSys by checking "Info > About".
 
-## Getting Started
+#### How to use
 
-### Dependencies
-
-* vatSys
-* .NET 4.7
-
-### Installing
-
-* Unzip the files into `<ProfileName>/Plugins` folder. You may need to manually create this folder.
-* ON SOME COMPUTERS, THE ZIP FILE WILL BE BLOCKED WHEN DOWNLOADED.
-* 8 TO UNBLOCK, RIGHT CLICK ON THE FILE, CLICK PROPERTIES, TICK UNBLOCK, CLICK APPLY, CLICK OKAY.
-
-### Executing program
-
-* The program will load automatically once installed correctly.
-* Access the Remote VSCS via `http://localhost:7673` or via `http://<vatSys host computer IP>:7673`
-
-## Help
-
-If there are any issues, please submit an issue here on Github.
-
-## Contribute
-
-Feel free to fork and submit PR's for review.
-
-## Version History
-
-* v0.1-beta
-    * Initial Release
+You will receive a message when extra airports have been added.  You must restart vatSys for the extra airports to be applied.
